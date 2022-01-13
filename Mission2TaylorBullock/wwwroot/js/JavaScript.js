@@ -2,15 +2,19 @@
 
 
 $("#calculate").click(function () {
+
+    /*assign variables*/
     var assign = $("#assign").val() * .55;
     var gproj = $("#gproj").val() * .05;
     var quiz = $("#quiz").val() * .1;
     var exam = $("#exam").val() * .2;
     var intex = $("#intex").val() * .1;
 
+    /*calculate percent and instantiate score variable*/
     var percent = (assign + gproj + quiz + exam + intex);
     var score = "";
 
+    /*look up score*/
     if (percent >= 94) {
         score = "A";
     }
@@ -48,5 +52,6 @@ $("#calculate").click(function () {
         score = "E";
     };
 
+    /*print results*/
     alert("Your final percentage is: " + percent.toPrecision(2) + "%\nYour final score is: " +score);
 });
