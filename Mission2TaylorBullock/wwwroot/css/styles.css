@@ -1,0 +1,27 @@
+﻿body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+label {
+    width:150px
+}
+
+img {
+    width:500px
+}
+
+h1 {
+    color:brown;
+}
+
+.description {
+    width:500px;
+    margin-left: 100px;
+}
+
+.centering {
+    width: 1000px;
+    position:relative;
+    margin-left: 100px;
+}
+
